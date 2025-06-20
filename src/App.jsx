@@ -1,11 +1,11 @@
-
+import Saludar from './components/Saludar'
 
 function App() {
   
 
   return (
     <>
-     <h1>ejercicio2</h1>
+     <Saludar></Saludar>
     </>
   )
 }
