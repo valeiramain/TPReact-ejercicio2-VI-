@@ -1,8 +1,8 @@
 
-const Saludar = () => {
+const Saludar = (props) => {
     return (
         <div>
-            <h1>Hello!!! </h1>
+            <h1>Hello!!! {props.nombreProps}</h1>
         </div>
     );
 };
